@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  height: 2.5rem;
+  width: 100%;
+  border: none;
+  border-radius: .2rem;
+  background-color: #e4e4e4;
+  font-size: 1rem;
+  padding: .5rem;
+  margin-top: .5rem;
+}
+
+.input:focus,
+.input:hover {
+  outline: none;
+  transform: scaleY(1.1);
+}
+
+.button {
+  width: 5rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  background: #565656;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: .2rem;
+  margin-top: .5rem;
+}
